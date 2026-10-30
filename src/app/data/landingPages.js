@@ -1,6 +1,7 @@
 export const landingPages = [
     {
         slug: "kids-play-zone",
+        keywords: ["Kids Play Zone", "Kids Play Zone setup"],
         title: "Kids Play Zone by Maskeen Toys – Where Fun, Learning & Safe Play Come Together",
         metaTitle: "Kids Play Zone | Safe Indoor Play Area for Fun & Birthday Parties ",
         metaDescription:
@@ -13,11 +14,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every child deserves a place where they can laugh, explore, and create unforgettable memories. At **Maskeen Toys**, we have created a modern Kids Play Zone that combines fun, creativity, physical activity, and learning in one safe and exciting environment. Our play zone is thoughtfully designed to encourage children to stay active, develop social skills, improve confidence, and enjoy quality time with family and friends.",
+                text: "Every child deserves a place where they can laugh, explore, and create unforgettable memories. At **Maskeen Toys**, we have created a modern [Kids Play Zone](/) that combines fun, creativity, physical activity, and learning in one safe and exciting environment. Our play zone is thoughtfully designed to encourage children to stay active, develop social skills, improve confidence, and enjoy quality time with family and friends.",
             },
             {
                 type: "paragraph",
-                text: "Whether you're looking for an exciting weekend outing, a safe indoor play area, or the perfect venue for a birthday celebration, our Kids Play Zone offers everything children need for a joyful and engaging experience. Every activity is carefully planned to inspire imagination, support healthy development, and keep children entertained in a secure setting.",
+                text: "Whether you're looking for an exciting weekend outing, a safe indoor play area, or the perfect venue for a birthday celebration, our [Kids Play Zone](/our-products) offers everything children need for a joyful and engaging experience. Every activity is carefully planned to inspire imagination, support healthy development, and keep children entertained in a secure setting.",
             },
             {
                 type: "heading",
@@ -59,7 +60,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Children learn differently at every age. That's why our Kids Play Zone includes activities suitable for toddlers, preschoolers, and older children.",
+                text: "Children learn differently at every age. That's why our [Kids Play Zone](/new-arrival) includes activities suitable for toddlers, preschoolers, and older children.",
             },
             {
                 type: "paragraph",
@@ -715,7 +716,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a family outing, a birthday celebration, or simply looking for a safe place where your child can stay active and happy, our Kids Play Zone offers the perfect destination.",
+                text: "Whether you're planning a family outing, a birthday celebration, or simply looking for a safe place where your child can stay active and happy, our [Kids Play Zone](/contact) offers the perfect destination.",
             },
             {
                 type: "paragraph",
@@ -2435,6 +2436,7 @@ export const landingPages = [
     },
     {
         slug: "play-area-manufacturer-in-delhi",
+        keywords: ["Play Area Manufacturer", "Children soft play area manufacturer"],
         title: "Play Area Manufacturer in Delhi | Premium Indoor & Outdoor Play Area Solutions by Maskeen Toys",
         metaTitle: "Play Area Manufacturer in Delhi | Indoor & Outdoor Play Equipment",
         metaDescription:
@@ -2447,7 +2449,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Finding the right **Play Area Manufacturer in Delhi** is one of the most important decisions when planning a safe, attractive, and long-lasting play space for children. Whether you're setting up a school playground, an indoor play zone in a shopping mall, a residential society play area, or a commercial family entertainment center, the quality of the equipment and design directly impacts children's safety and overall experience.",
+                text: "Finding the right [Play Area Manufacturer in Delhi](/) is one of the most important decisions when planning a safe, attractive, and long-lasting play space for children. Whether you're setting up a school playground, an indoor play zone in a shopping mall, a residential society play area, or a commercial family entertainment center, the quality of the equipment and design directly impacts children's safety and overall experience.",
             },
             {
                 type: "paragraph",
@@ -2629,7 +2631,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "As a leading **Play Area Manufacturer in Delhi**, we manufacture a complete range of commercial playground equipment.",
+                text: "As a leading [Play Area Manufacturer in Delhi](/our-products), we manufacture a complete range of commercial playground equipment.",
             },
             {
                 type: "paragraph",
@@ -2977,7 +2979,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Toys**, we believe that a successful playground begins with thoughtful design, precision manufacturing, and uncompromising safety. As a trusted **Play Area Manufacturer in Delhi**, we combine engineering expertise with creative design to develop play environments that inspire children while meeting the practical needs of schools, commercial spaces, and recreational facilities.",
+                text: "At **Maskeen Toys**, we believe that a successful playground begins with thoughtful design, precision manufacturing, and uncompromising safety. As a trusted [Play Area Manufacturer in Delhi](/new-arrival), we combine engineering expertise with creative design to develop play environments that inspire children while meeting the practical needs of schools, commercial spaces, and recreational facilities.",
             },
             {
                 type: "paragraph",
@@ -3244,7 +3246,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "If you're searching for a reliable **Play Area Manufacturer in Delhi**, our team is ready to help you transform your vision into a safe, engaging, and high-quality play environment.",
+                text: "If you're searching for a reliable [Play Area Manufacturer in Delhi](/contact), our team is ready to help you transform your vision into a safe, engaging, and high-quality play environment.",
             },
             {
                 type: "paragraph",
@@ -3254,6 +3256,7 @@ export const landingPages = [
     },
     {
         slug: "custom-soft-play-area-in-delhi",
+        keywords: ["Custom soft play area manufacturer", "Custom soft play area in delhi ncr"],
         title: "Custom Soft Play Area in Delhi | Premium Indoor Play Solutions by Maskeen Toys",
         metaTitle: "Custom Soft Play Area in Delhi | Safe Kids Play Solutions",
         metaDescription:
@@ -3266,7 +3269,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "A well-designed **Custom Soft Play Area in Delhi** is more than just an attractive play space—it is an investment in children's safety, learning, physical development, and memorable experiences. Whether you're planning a children's play zone for a school, preschool, daycare centre, shopping mall, restaurant, hospital, residential society, or family entertainment centre, choosing the right play area manufacturer is essential for long-term success.",
+                text: "A well-designed [Custom Soft Play Area in Delhi](/) is more than just an attractive play space—it is an investment in children's safety, learning, physical development, and memorable experiences. Whether you're planning a children's play zone for a school, preschool, daycare centre, shopping mall, restaurant, hospital, residential society, or family entertainment centre, choosing the right play area manufacturer is essential for long-term success.",
             },
             {
                 type: "paragraph",
@@ -3492,7 +3495,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Our **Custom Soft Play Area in Delhi** projects include a wide range of modern play equipment.",
+                text: "Our [Custom Soft Play Area in Delhi](/our-products) projects include a wide range of modern play equipment.",
             },
             {
                 type: "paragraph",
@@ -3612,7 +3615,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Every **Custom Soft Play Area in Delhi** is designed to provide children with a secure environment where they can play freely without unnecessary risks.",
+                text: "Every [Custom Soft Play Area in Delhi](/new-arrival) is designed to provide children with a secure environment where they can play freely without unnecessary risks.",
             },
             {
                 type: "paragraph",
@@ -3790,7 +3793,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Toys**, we believe that every successful indoor play area begins with thoughtful planning, precision engineering, and a deep understanding of how children play, learn, and interact. As a trusted provider of **Custom Soft Play Area in Delhi**, we don't simply install play equipment—we create complete indoor play environments that are safe, visually engaging, and built for long-term commercial use.",
+                text: "At **Maskeen Toys**, we believe that every successful indoor play area begins with thoughtful planning, precision engineering, and a deep understanding of how children play, learn, and interact. As a trusted provider of [Custom Soft Play Area in Delhi](/contact), we don't simply install play equipment—we create complete indoor play environments that are safe, visually engaging, and built for long-term commercial use.",
             },
             {
                 type: "paragraph",
@@ -4732,6 +4735,7 @@ export const landingPages = [
     },
     {
         slug: "play-area-fabricator",
+        keywords: ["Play Area Fabricator", "Custom Indoor Play Area Solutions", "Outdoor Play Area Solutions"],
         title: "Play Area Fabricator | Custom Indoor & Outdoor Play Area Solutions by Maskeen Toys",
         metaTitle: " Play Area Fabricator | Custom Kids Play Zones & Equipment",
         metaDescription:
@@ -4744,11 +4748,11 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Choosing the right **Play Area Fabricator** is one of the most important decisions when developing a children's recreational space. A professionally fabricated play area is not just a collection of slides, swings, or climbing structures—it is an environment where children develop physical strength, improve coordination, build confidence, enhance creativity, and create lifelong memories.",
+                text: "Choosing the right [Play Area Fabricator](/) is one of the most important decisions when developing a children's recreational space. A professionally fabricated play area is not just a collection of slides, swings, or climbing structures—it is an environment where children develop physical strength, improve coordination, build confidence, enhance creativity, and create lifelong memories.",
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Toys**, we specialize in the **design, fabrication, manufacturing, and installation** of premium indoor and outdoor play areas for schools, preschools, residential societies, shopping malls, restaurants, daycare centres, hotels, hospitals, public parks, resorts, and family entertainment centres. Every project is carefully customized according to your available space, target age group, budget, and business goals.",
+                text: "At **Maskeen Toys**, we specialize in the **design, fabrication, manufacturing, and installation** of premium indoor and [outdoor play areas](/new-arrival) for schools, preschools, residential societies, shopping malls, restaurants, daycare centres, hotels, hospitals, public parks, resorts, and family entertainment centres. Every project is carefully customized according to your available space, target age group, budget, and business goals.",
             },
             {
                 type: "paragraph",
@@ -4956,7 +4960,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "As a professional **Play Area Fabricator**, we manufacture a complete range of playground equipment.",
+                text: "As a professional [Play Area Fabricator](/our-products), we manufacture a complete range of playground equipment.",
             },
             {
                 type: "subheading",
@@ -5644,7 +5648,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Whether you're planning a new school playground, a commercial kids' zone, or a customized recreational space, choosing the right **Play Area Fabricator** makes all the difference.",
+                text: "Whether you're planning a new school playground, a commercial kids' zone, or a customized recreational space, choosing the right [Play Area Fabricator](/contact) makes all the difference.",
             },
             {
                 type: "paragraph",
@@ -6557,6 +6561,7 @@ export const landingPages = [
     },
     {
         slug: "soft-play-manufacturer-near-me",
+        keywords: ["Soft play area manufacturer near me"],
         title: "Soft Play Manufacturer Near Me – Safe, Creative & Premium Indoor Play Solutions by Maskeen Toys",
         metaTitle: "Soft Play Manufacturer Near Me - Maskeen Toys",
         metaDescription:
@@ -6573,7 +6578,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "If you are searching for a **Soft Play Manufacturer Near Me**, your search ends here. Maskeen Toys is one of India's trusted manufacturers of premium-quality soft play equipment, indoor playgrounds, and customized play solutions designed for children of all age groups.",
+                text: "If you are searching for a [Soft Play Manufacturer Near Me](/), your search ends here. Maskeen Toys is one of India's trusted manufacturers of premium-quality soft play equipment, indoor playgrounds, and customized play solutions designed for children of all age groups.",
             },
             {
                 type: "paragraph",
@@ -6613,7 +6618,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Finding a **Soft Play Manufacturer Near Me** isn't difficult—but choosing a manufacturer who understands quality, safety, and long-term value is what truly matters.",
+                text: "Finding a [Soft Play Manufacturer Near Me](/our-products) isn't difficult—but choosing a manufacturer who understands quality, safety, and long-term value is what truly matters.",
             },
             {
                 type: "paragraph",
@@ -6956,7 +6961,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "At **Maskeen Toys**, every soft play project begins with a simple goal—creating a fun, safe, and long-lasting play environment for children. As a trusted **Soft Play Manufacturer Near Me**, we follow a structured manufacturing process that combines creativity, engineering, and quality control.",
+                text: "At **Maskeen Toys**, every soft play project begins with a simple goal—creating a fun, safe, and long-lasting play environment for children. As a trusted [Soft Play Manufacturer Near Me](/new-arrival), we follow a structured manufacturing process that combines creativity, engineering, and quality control.",
             },
             {
                 type: "paragraph",
@@ -7795,7 +7800,7 @@ export const landingPages = [
             },
             {
                 type: "paragraph",
-                text: "Searching for a reliable **Soft Play Manufacturer Near Me** should lead you to a company that values quality, safety, and long-term relationships. At **Maskeen Toys**, we are passionate about creating indoor play environments that inspire joy, learning, and unforgettable childhood memories.",
+                text: "Searching for a reliable [Soft Play Manufacturer Near Me](/contact) should lead you to a company that values quality, safety, and long-term relationships. At **Maskeen Toys**, we are passionate about creating indoor play environments that inspire joy, learning, and unforgettable childhood memories.",
             },
             {
                 type: "paragraph",
