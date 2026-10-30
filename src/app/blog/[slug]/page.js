@@ -87,7 +87,7 @@ export default async function BlogDetailPage({ params }) {
       <section className="relative w-full h-[260px] sm:h-[360px] md:h-[440px]">
         <Image
           src={blog.image}
-          alt={blog.title}
+          alt={blog.imageAlt || blog.title}
           fill
           priority
           className="object-cover"

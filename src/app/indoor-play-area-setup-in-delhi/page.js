@@ -6,6 +6,11 @@ export const metadata = {
   title: "Best Indoor Play Area Setup in Delhi - Maskeen Toys",
   description:
     "Maskeen Toys offers premium Indoor Play Area Setup in Delhi with safe, durable, and customized designs for schools, malls, cafés, and homes. Contact us now!",
+  keywords: [
+    "Indoor Play Area Setup",
+    "Indoor Kids Play Zone Setup",
+    "Best Indoor Play Area Setup in Delhi NCR",
+  ],
   alternates: {
     canonical: "https://www.playareamanufacturer.com/indoor-play-area-setup-in-delhi",
   },
