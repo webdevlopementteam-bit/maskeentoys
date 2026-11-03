@@ -17,6 +17,9 @@ const SECOND_DELAY = 30000;
 // In pages pe popup nahi dikhega (yaha already form hai)
 const HIDDEN_ON = ["/contact", "/thank-you"];
 
+// "Get Quotation" jaise buttons is event se popup kholte hai (QuoteButton.jsx)
+export const OPEN_POPUP_EVENT = "maskeen:open-enquiry-popup";
+
 const readState = () => {
   try {
     return localStorage.getItem(STORAGE_KEY);
@@ -40,6 +43,8 @@ export default function EnquiryPopup() {
   const router = useRouter();
   const pathname = usePathname();
   const [due, setDue] = useState(false);
+  // Button se khola gaya popup — auto popup ke 7/30 sec wale rule ko nahi chhuta
+  const [manual, setManual] = useState(false);
   const [status, setStatus] = useState("idle");
   const timerRef = useRef(null);
 
@@ -57,9 +62,26 @@ export default function EnquiryPopup() {
     return () => clearTimeout(timerRef.current);
   }, []);
 
-  const open = due && !HIDDEN_ON.includes(pathname);
+  useEffect(() => {
+    const onOpen = () => {
+      // Button se khula to pending auto popup cancel, taaki band karne ke baad dobara na aaye
+      clearTimeout(timerRef.current);
+      setDue(false);
+      setStatus("idle");
+      setManual(true);
+    };
+    window.addEventListener(OPEN_POPUP_EVENT, onOpen);
+    return () => window.removeEventListener(OPEN_POPUP_EVENT, onOpen);
+  }, []);
+
+  const open = manual || (due && !HIDDEN_ON.includes(pathname));
 
   const handleClose = () => {
+    if (manual) {
+      setManual(false);
+      setStatus("idle");
+      return;
+    }
     const closedOnce = readState() === "closed-1";
     saveState(closedOnce ? "closed-2" : "closed-1");
     setDue(false);
@@ -95,7 +117,9 @@ export default function EnquiryPopup() {
     setStatus("loading");
 
     const payload = {
-      subject: "Popup Enquiry - Maskeen Toys Website",
+      subject: manual
+        ? "Quotation Request - Maskeen Toys Website"
+        : "Popup Enquiry - Maskeen Toys Website",
       from_name: "Maskeen Toys Website",
       name: formData.get("name"),
       phone: formData.get("phone"),
@@ -109,6 +133,7 @@ export default function EnquiryPopup() {
       await submitToAllWeb3Forms(payload);
       saveState("submitted");
       setDue(false);
+      setManual(false);
       router.push("/thank-you");
     } catch (err) {
       setStatus("error");
@@ -139,7 +164,7 @@ export default function EnquiryPopup() {
         </button>
 
         <p className="text-center font-love uppercase text-[#EF4E74] text-sm">
-          Free Consultation
+          {manual ? "Get Quotation" : "Free Consultation"}
         </p>
         <h2
           id="enquiry-popup-title"

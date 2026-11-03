@@ -16,6 +16,7 @@ export default function sitemap() {
     "/contact",
     "/indoor-play-area-setup-in-delhi",
     "/children-soft-play-equipment-supplier",
+    "/indoor-playground-manufacturer",
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified: new Date(),

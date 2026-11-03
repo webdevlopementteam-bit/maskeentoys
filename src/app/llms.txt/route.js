@@ -33,6 +33,11 @@ const mainPages = [
     desc: "Soft play range for preschools and schools, age-wise equipment guide, materials, safety and supply process.",
   },
   {
+    path: "/indoor-playground-manufacturer",
+    title: "Indoor Playground Manufacturer in Delhi NCR",
+    desc: "Indoor playground equipment for schools, daycares, malls and play zones, with safety and space-planning guidance.",
+  },
+  {
     path: "/indoor-play-area-setup-in-delhi",
     title: "Indoor Play Area Setup in Delhi",
     desc: "Indoor play area design and installation for schools, malls, cafés and homes.",
